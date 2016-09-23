@@ -21,6 +21,7 @@
     </header>
     <main>
       <h1>{{ .Title }}</h1>
+      <p>Because I'm done figuring out how a Pod works for the millionth time.</p>
       <nav></nav>
       {{ range (.Paginate (where .Data.Pages "Type" "resource")).Pages }}
         <h2>{{ .Params.name }} </h2>
