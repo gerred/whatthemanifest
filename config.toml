@@ -1,3 +1,4 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "What the Manifest?!"
+theme = "after-dark"
